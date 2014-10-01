@@ -1,6 +1,6 @@
 {
 	"name": "plist2json",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A utility to convert Apple property lists to JSON",
 	"keywords": ["plist", "property", "list", "JSON"],
 	"homepage": "http://dpearson.me/plist.js/",
@@ -17,6 +17,9 @@
 	"main": "./lib/plist2json.js",
 	"directories": {
 		"lib": "./lib"
+	},
+	"bin":{
+		"plist2json":"./bin/plist2json"
 	},
 
 	"repository": {
