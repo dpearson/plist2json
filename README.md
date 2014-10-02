@@ -4,9 +4,13 @@ plist2json is a utility to convert Apple property lists to JSON.
 
 It supports XML and old-style ASCII plists.
 
+### Installation ###
+
+	sudo npm install -g plist2json
+
 ### Usage ###
 
-node plist2json.js INPUT_FILE OUTPUT_FILE
+plist2json INPUT_FILE OUTPUT_FILE
 
 ### Supported Types ###
 
